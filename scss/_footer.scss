@@ -1,0 +1,139 @@
+/*style footer*/
+
+#foot{
+	background-color: $textColor;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-items: space-evenly;
+	justify-content: center;
+	width: 100%;
+	border-radius: 0.2rem;
+}
+
+#container1 {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+#container1 p{
+	font-size: 2rem;
+	text-align: center;
+}
+
+#container2 {
+	background-color: $mainColor;
+	border-radius: 0.2rem;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+/*style contact box*/
+
+fieldset{
+	border: none;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+
+legend{
+	font-size: 2rem;
+	text-align: center;
+}
+
+label{
+	font-size: 1.5rem;
+}
+
+textarea{
+	font-size: 1rem;
+	/*border-radius: 0.2rem;*/
+	border: none;
+}
+
+input{
+	font-size: 1rem; 
+}
+
+input[type=text]{
+	display: block;
+	/*border-radius: 0.2rem;*/
+	border: none;
+}
+
+
+input[type=email]{
+	display: block;
+	/*border-radius: 0.2rem;*/
+	border: none;
+}
+
+input[type=submit]{
+	background-color: $mainColor;
+	/*border-radius: 0.2rem;*/
+	border: none;
+	border: 0.1rem solid black; 
+	cursor: pointer;
+}
+
+input[type=reset]{
+	background-color: $mainColor;
+	/*border-radius: 0.2rem;*/
+	border: none;
+	cursor: pointer;
+	border: solid 0.1rem black;
+}
+
+input[type=submit]:hover{
+	background-color: $mainColor;
+	border-radius: 0.2rem;
+}
+
+input[type=reset]:hover{
+	background-color: $mainColor;
+	border-radius: 0.2rem;	
+}
+
+#map{
+	/*border-radius: 0.2rem;*/
+	width: 100%;
+	border: none;
+}
+
+#container3{
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+}
+
+/* Servicios.html */
+
+.servicios{
+	display: flex;
+	flex-direction: column;
+}
+
+.servicios ul li img{
+	width: 100%;	
+}
+
+.lista{
+	display: flex;
+	list-style-type:none;
+	flex-direction: column;
+}
+
+.lista li b{
+	width: fit-content;
+	font-size: 1.4rem;
+}
+
+.servicios h1{
+	font-size: 2rem;
+	width: fit-content;
+}

@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto:wght@300&display=swap");
+* {
+  font-family: "Roboto";
+  magin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-image: url(../img/Backgound3.jpg);
+  back-size: cover;
+  background-attachment: fixed; }
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "nav" "main" "aside" "footer";
+  grid-gap: 2px 2px; }
+
+#mainNav {
+  grid-area: nav; }
+
+#main {
+  grid-area: main; }
+
+#shop {
+  grid-area: aside; }
+
+#foot {
+  grid-area: footer; }
+
+#block1 {
+  display: flex;
+  flex-direction: column;
+  justify-items: center; }
+
+#text1 {
+  background-color: #77b3d9;
+  border-radius: 0.2rem;
+  font-size: 1.5rem;
+  width: 100%;
+  height: fit-content; }
+
+#img1 {
+  width: 100%;
+  height: auto;
+  border-radius: 0.2rem;
+  display: flex;
+  order: -1; }
+
+#block2 {
+  display: flex;
+  flex-direction: column;
+  justify-items: center; }
+
+#img2 {
+  border-radius: 0.2rem;
+  width: 100%;
+  height: auto; }
+
+#text2 {
+  background-color: #77b3d9;
+  border-radius: 0.2rem;
+  font-size: 1.5rem;
+  width: 100%;
+  height: fit-content; }
+
+/*style footer*/
+#foot {
+  background-color: #77b3d9;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-items: space-evenly;
+  justify-content: center;
+  width: 100%;
+  border-radius: 0.2rem; }
+
+#container1 {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+
+#container1 p {
+  font-size: 2rem;
+  text-align: center; }
+
+#container2 {
+  background-color: #4e8bbf;
+  border-radius: 0.2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+/*style contact box*/
+fieldset {
+  border: none;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  width: 100%; }
+
+legend {
+  font-size: 2rem;
+  text-align: center; }
+
+label {
+  font-size: 1.5rem; }
+
+textarea {
+  font-size: 1rem;
+  /*border-radius: 0.2rem;*/
+  border: none; }
+
+input {
+  font-size: 1rem; }
+
+input[type=text] {
+  display: block;
+  /*border-radius: 0.2rem;*/
+  border: none; }
+
+input[type=email] {
+  display: block;
+  /*border-radius: 0.2rem;*/
+  border: none; }
+
+input[type=submit] {
+  background-color: #4e8bbf;
+  /*border-radius: 0.2rem;*/
+  border: none;
+  border: 0.1rem solid black;
+  cursor: pointer; }
+
+input[type=reset] {
+  background-color: #4e8bbf;
+  /*border-radius: 0.2rem;*/
+  border: none;
+  cursor: pointer;
+  border: solid 0.1rem black; }
+
+input[type=submit]:hover {
+  background-color: #4e8bbf;
+  border-radius: 0.2rem; }
+
+input[type=reset]:hover {
+  background-color: #4e8bbf;
+  border-radius: 0.2rem; }
+
+#map {
+  /*border-radius: 0.2rem;*/
+  width: 100%;
+  border: none; }
+
+#container3 {
+  display: flex;
+  justify-content: center;
+  justify-items: center; }
+
+/* Servicios.html */
+.servicios {
+  display: flex;
+  flex-direction: column; }
+
+.servicios ul li img {
+  width: 100%; }
+
+.lista {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column; }
+
+.lista li b {
+  width: fit-content;
+  font-size: 1.4rem; }
+
+.servicios h1 {
+  font-size: 2rem;
+  width: fit-content; }
+
+.navbar {
+  width: 100%;
+  background: #020024;
+  background: linear-gradient(180deg, #020024 0%, #090979 17%, #00d4ff 100%);
+  border-radius: 0.2rem;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+#NavLogo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: auto;
+  animation-name: fadeIn; }
+
+.navbar ul {
+  list-style-type: none;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  width: 100%; }
+
+.navbar ul li {
+  list-style-type: none;
+  font-weight: 800; }
+
+.navbar ul li a {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 0.7rem; }
+
+.navbar ul li a:hover {
+  color: black;
+  font-size: 0.8rem;
+  font-weight: 1000; }
+
+#logo {
+  width: 100px;
+  height: auto; }
+
+#logo:hover {
+  width: 150px;
+  height: auto; }
+
+.navbar ul li a img {
+  display: none; }
+
+.navbar a img:hover {
+  width: 11%; }
+
+#shop {
+  border-radius: 0.2rem;
+  border: solid 1px black;
+  background-color: #4e8bbf;
+  display: flex;
+  justify-items: space-evenly;
+  justify-content: center;
+  flex-direction: column; }
+
+#shop div a h2 {
+  font-size: 2rem; }
+
+#cart {
+  width: 10%; }
+
+#shop div a {
+  display: flex;
+  justify-content: center; }
+
+#cart {
+  display: none; }
+
+.ShopImg a img {
+  width: 100%; }
+
+.ShopImg {
+  border-radius: 0.2rem;
+  display: flex;
+  justify-content: space-evenly; }
+
+.ShopImg a img:hover {
+  border-radius: 0.2rem;
+  width: 101%;
+  cursor: pointer; }
+
+/* media queries*/
+@media (min-width: 400px) {
+  .navbar ul li a {
+    font-size: 1rem; }
+  .navbar ul li a:hover {
+    font-size: 1.2rem; }
+  #text1 {
+    font-size: 2rem; }
+  #text2 {
+    font-size: 2rem; } }
+
+@media (min-width: 600px) {
+  .navbar ul li a {
+    font-size: 1.5rem; }
+  .navbar ul li a:hover {
+    font-size: 1.8rem; } }
+
+@media (min-width: 800px) {
+  #foot {
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+    height: fit-content; }
+  #container1 {
+    width: 10%;
+    height: fit-content;
+    font-size: 1rem; }
+  #container2 {
+    width: 35%;
+    height: fit-content; }
+  legend {
+    font-size: 3rem; }
+  input {
+    font-size: 2rem;
+    width: 100%;
+    height: fit-content; }
+  label {
+    font-size: 2.5rem; }
+  textarea {
+    font-size: 2rem; }
+  #map {
+    width: 35%; }
+  #container3 {
+    font-size: 1.5rem;
+    width: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-items: space-evenly;
+    justify-content: center; }
+  #container3 a {
+    width: fit-content; }
+  #container3 h3 {
+    text-align: center; } }
+
+@media (min-width: 1000px) {
+  .contenedor {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "nav nav nav nav" "main main main aside" "footer footer footer footer";
+    grid-gap: 2px 2px; }
+  .navbar {
+    width: 100%; }
+  .navbar ul li a {
+    font-size: 2.5rem; }
+  .navbar ul li a:hover {
+    font-size: 2.8rem; }
+  /*main*/
+  #text1 {
+    font-size: 2rem; }
+  #text2 {
+    font-size: 2rem; }
+  /*aside*/
+  #shop div a h2 {
+    font-size: 1.8rem;
+    text-decoration: none;
+    list-style-type: none; }
+  #shop div a {
+    justify-content: center;
+    justify-items: space-evenly; }
+  .ShopImg {
+    display: flex;
+    flex-direction: column; }
+  .ShopImg a img {
+    width: 80%;
+    height: auto; }
+  .ShopImg:hover {
+    height: auto; }
+  #cart {
+    display: flex;
+    width: 100%;
+    height: auto; }
+  /*footer*/
+  #foot {
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+    height: fit-content; }
+  #container1 {
+    width: 8%;
+    height: fit-content;
+    font-size: 1.3rem; }
+  #container2 {
+    width: 38%;
+    height: fit-content; }
+  legend {
+    font-size: 3rem; }
+  input {
+    font-size: 2rem;
+    width: 100%;
+    height: fit-content; }
+  label {
+    font-size: 2.5rem; }
+  textarea {
+    font-size: 2rem; }
+  #map {
+    width: 38%; }
+  #container3 {
+    font-size: 1.5rem;
+    width: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-items: space-evenly;
+    justify-content: center; }
+  #container1 p {
+    font-size: 2rem; }
+  #container3 a {
+    width: fit-content;
+    flex-direction: row; }
+  #container3 h3 {
+    text-align: center; }
+  #container3 a img {
+    width: 150%; } }
+
+@media (min-width: 1500px) {
+  .navbar ul li a {
+    font-size: 3.5rem; }
+  .navbar ul li a:hover {
+    font-size: 3.8rem; }
+  #shop div a h2 {
+    font-size: 2.8rem; }
+  #text1 {
+    font-size: 3rem; }
+  #text2 {
+    font-size: 3rem; }
+  #container3 h3 {
+    font-size: 3rem; }
+  #container3 a img {
+    width: 200%; } }
+
+@media (min-width: 1800px) {
+  .contenedor {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "nav nav nav nav" "main main main aside" "footer footer footer footer";
+    grid-gap: 2px 2px; }
+  .navbar ul li a {
+    font-size: 4rem; }
+  .navbar ul li a:hover {
+    font-size: 4.2rem; }
+  #shop div a h2 {
+    font-size: 4rem; }
+  #text1 {
+    font-size: 5rem; }
+  #text2 {
+    font-size: 5rem; }
+  #container3 h3 {
+    font-size: 4rem; }
+  #container1 p {
+    font-size: 3rem; }
+  #container3 a img {
+    width: 200%; } }

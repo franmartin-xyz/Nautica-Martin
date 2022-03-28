@@ -1,0 +1,87 @@
+
+*{
+	font-family: $mainFont;
+	magin: 0;
+	padding: 0;
+}
+html{
+	font-size: 62.5%;
+}
+
+body{
+	background-image:url(../img/Backgound3.jpg);
+	back-size: cover;
+	background-attachment: fixed;	
+}
+
+//definimos el grid layout
+.contenedor{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-template-areas: "nav" "main" "aside" "footer";
+	grid-gap: 2px 2px;
+}
+
+// le damos nombres a las areas del layout
+#mainNav{
+	grid-area: nav;
+}
+
+
+#main{
+	grid-area: main;
+}
+
+#shop{
+	grid-area: aside;
+}
+
+#foot{
+	grid-area: footer;
+}
+
+// style main contentS
+
+#block1 {
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+}
+
+#text1 {
+	background-color: $textColor;
+	border-radius: 0.2rem;	
+	font-size: 1.5rem;
+	width: 100%;
+	height: fit-content;
+}
+
+#img1{
+	width: 100%;
+	height: auto;
+	border-radius: 0.2rem;
+	display: flex;
+	order: -1;
+}
+
+#block2 {
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+}
+
+#img2{
+	border-radius: 0.2rem;
+	width: 100%;
+	height: auto;
+}
+
+#text2{
+	background-color: $textColor;
+	border-radius: 0.2rem;
+	font-size: 1.5rem;
+	width: 100%;
+	height: fit-content;
+}
+

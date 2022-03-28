@@ -1,0 +1,44 @@
+// style main aside 
+
+#shop{
+	border-radius: 0.2rem;
+	border: solid 1px black;
+	background-color: $mainColor;
+	display: flex;
+	justify-items: space-evenly;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#shop div a h2{
+	font-size: 2rem;
+}
+
+#cart{
+	width: 10%;
+}
+
+#shop div a{
+	display: flex;
+	justify-content: center;
+}
+
+#cart{
+	display: none;
+}
+
+.ShopImg a img{
+	width: 100%;
+}
+
+.ShopImg{
+	border-radius: 0.2rem;
+	display: flex;
+	justify-content: space-evenly;  
+}
+
+.ShopImg a img:hover{
+	border-radius: 0.2rem;
+	width: 101%;
+	cursor: pointer;
+}

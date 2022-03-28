@@ -1,100 +1,92 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
-    <link rel="icon" type="image/x-icon" href="./img/Logo.jpg">
-    <title>Náutica Martin</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!-- starts nav-->
-        <div class="container-fluid bg-primary" >
-          <a href="./index.html" class="navbar-brand"><img src="./img/Logo.jpg" width="45" alt="Logo" data-aos="fade-right"></a>
-          <a class="navbar-brand text-white bg-secondary bg-opacity-50" href="./index.html" data-aos="fade-right">Sobre Nosotros</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active text-white"  aria-current="page" href="./galery.html" data-aos="fade-right">Galería</a>
-            <!-- <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
-            <a class="nav-link disabled">Disabled</a> -->
-          </div>
-        </div>
-      </div>
-    </nav> <!-- nav ends -->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Náutica Martin</title>
+	<link rel="icon" type="image/x-icon" href="./img/Logo.jpg">
+	<link rel="stylesheet" href="./css/main.css"/>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+</head>
+<body>
+<div class="contenedor">
+	<!-- starts nav -->
+	<nav class="navbar" id="mainNav">
+					<a href="index.html" id="NavLogo" data-aos="fade-in">
+						<img src="./img/Logo.jpg" alt="logo de Náutica Martin" id='logo'> 
+					</a>
+					<ul data-aos="slide-down">
+						<li><a href="index.html" class="wow fadeIn"><img src="./img/info.svg" alt="">Sobre Nosotos<a/></li>
+						<li><a href="Servicios.html"><img src="./img/tool.svg" alt="">Servicios</a></li>
+						<li><a href="galeria.html"><img src="./img/picture.svg" alt="">Galería</a></li>
+						<li><a href="Certs-Credentials.html"><img src="./img/check-square-1.svg" alt="">Certificaciones y Credenciales</a></li>
+						<li><a href="Reviews.html"><img src="./img/star.svg" alt="">Reseñas</a></li>
+					</ul>
+	</nav>
+	<!-- ends nav -->
 
-    <main class="row g-0"><!-- main starts -->
-      <div class="col-xxl-10">
-        <section class="col" data-aos="fade"> <!-- starts primer bloque -->
-          <p class="container-fluid text-dark">Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Rerum blanditiis voluptatibus est error optio mollitia tempora suscipit. Doloremque cupiditate debitis quas deleniti, sunt, nihil aut eius veritatis mollitia ullam aspernatur.</p>
-          <img src="./img/frente .png" alt="frente de comercio" class="img-fluid">
-        </section> <!-- ends primer bloque -->
-        <!-- starts segundo bloque -->
-        <section class="col" data-aos="fade"> 
-            <p class="container-fluid text-dark" >Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Rerum blanditiis voluptatibus est error optio mollitia tempora suscipit. Doloremque cupiditate debitis quas deleniti, sunt, nihil aut eius veritatis mollitia ullam aspernatur.</p>
-            <img src="./img/DSCN1465.JPG" alt="frente de comercio" class="img-fluid">
-        </section> <!-- ends segundo bloque-->
-      </div>
+	<!-- inicia conteniedo principal -->
+	<main id="main">
+		<section id="block1" data-aos="fade-left">
+					<p id="text1">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Iusto explicabo quasi aspernatur ad nobis aliquid mollitia non fugit similique. Voluptates velit cupiditate maxime necessitatibus, laudantium quas nemo alias aliquid corrupti.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo facilis odit magnam fugit autem tempore officiis. Eos quidem aliquam placeat, fuga optio molestiae! Aspernatur ab maiores, fugit voluptatem numquam, animi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo facilis odit magnam fugit autem tempore officiis. Eos quidem aliquam placeat, fuga optio molestiae! Aspernatur ab maiores, fugit voluptatem numquam, animi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo facilis odit magnam fugit autem tempore officiis. Eos quidem aliquam placeat, fuga optio molestiae! Aspernatur ab maiores, fugit voluptatem numquam, animi.</p>
+						<img src="img/frente .png" alt="frente" id="img1">
+				</section>	 
+				<section id="block2" data-aos="fade-right">	
+						<img src="img/DSCN1465.JPG" alt="costado" id="img2" >
+						<p id="text2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo facilis odit magnam fugit autem tempore officiis. Eos quidem aliquam placeat, fuga optio molestiae! Aspernatur ab maiores, fugit voluptatem numquam, animi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo facilis odit magnam fugit autem tempore officiis. Eos quidem aliquam placeat, fuga optio molestiae! Aspernatur ab maiores, fugit voluptatem numquam, animi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo facilis odit magnam fugit autem tempore officiis. Eos quidem aliquam placeat, fuga optio molestiae! Aspernatur ab maiores, fugit voluptatem numquam, animi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo facilis odit magnam fugit autem tempore officiis. Eos quidem aliquam placeat, fuga optio molestiae! Aspernatur ab maiores, fugit voluptatem numquam, animi.</p>		
+				</section>
+	</main>
+	<!-- cierra main-->
 
-    <!-- starts aside --> 
-      <aside class="col-xxl-2 col-sm-12">
-        <div class="container-fluid bg-info">
-          <a href="https://nauticamartin.shop/" class="text-decoration-none"><h2 class="fs-3 text-center text-black">Visita Nuestra Tienda Online</h2></a>
-        </div> 
-        <div class="d-flex col-sm-12 flex-sm-row flex-xxl-column" data-aos="fade-down">
-          <a href="https://nauticamartin.shop/accesorios/garmin-ecosonda-gps-striker-4-ww-fishfinder-detector-de-peces"><img src="https://d22fxaf9t8d39k.cloudfront.net/9168577960baf8f1b1ab4129fcb19ef67a8f97e3072f27e0aed05f518a94939f96812.png" alt="Ecosonda" class="img-fluid"></a>
-          <a href="https://nauticamartin.shop/deportes/kayak-karku-atlantikyak-remo-chaleco-salvavida"><img src="https://d22fxaf9t8d39k.cloudfront.net/bd5d4cf188faa741f461a4cb9c7783f3e9da81efbe2f0dd54e450259691d326796812.png" class="img-fluid"></a>
-          <a href="https://nauticamartin.shop/lubricantes-y-aceites/aceite-mercury-optimax-2t-1-galon-original"><img src="https://d22fxaf9t8d39k.cloudfront.net/e3bf5d27093f093fd7fc9993cb5feb3747870577d732d08aa099094587c1398096812.png" alt="Aceite" class="img-fluid"></a>
-          <a href="https://nauticamartin.shop/deportes/ski-esquies-acuatico-allegre-67-rojo-nautica"><img src="https://d22fxaf9t8d39k.cloudfront.net/347bb86d21689b7a590b4ed142cae10c3ebf8bbb91cceae38b784790f71a520d96812.png" alt="ski" class="img-fluid"></a>  
-        </div>
-      </aside>
-    <!-- ends aside -->
-    </main><!-- main ends -->
+	<aside id="shop">
+		<div>
+			<a href="https://nauticamartin.shop/"><h2>Visita Nuestra Tienda Online</h2></a>
+		</div>
+		<div>
+			<a href="https://nauticamartin.shop/"><img src="./img/shopping-cart.svg" alt="carrito de compras" id="cart"></a>
+		</div>
+		<div class="ShopImg" data-aos="fade-down">
+				<a href="https://nauticamartin.shop/accesorios/garmin-ecosonda-gps-striker-4-ww-fishfinder-detector-de-peces"><img src="https://d22fxaf9t8d39k.cloudfront.net/9168577960baf8f1b1ab4129fcb19ef67a8f97e3072f27e0aed05f518a94939f96812.png" alt="Ecosonda"></a>
+				<a href="https://nauticamartin.shop/deportes/kayak-karku-atlantikyak-remo-chaleco-salvavida"><img src="https://d22fxaf9t8d39k.cloudfront.net/bd5d4cf188faa741f461a4cb9c7783f3e9da81efbe2f0dd54e450259691d326796812.png"></a>
+				<a href="https://nauticamartin.shop/lubricantes-y-aceites/aceite-mercury-optimax-2t-1-galon-original"><img src="https://d22fxaf9t8d39k.cloudfront.net/e3bf5d27093f093fd7fc9993cb5feb3747870577d732d08aa099094587c1398096812.png" alt="Aceite"></a>
+				<a href="https://nauticamartin.shop/deportes/ski-esquies-acuatico-allegre-67-rojo-nautica"><img src="https://d22fxaf9t8d39k.cloudfront.net/347bb86d21689b7a590b4ed142cae10c3ebf8bbb91cceae38b784790f71a520d96812.png" alt="ski"></a>	
+		</div>
+	</aside>
 
-    <!-- footer starts -->
-    <div class="container-fluid">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="col-md-2 d-flex align-items-center">
-          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-            <img src="./img/Logo.jpg" alt="Logo" class="bi rounded-1" width="30" height="30" ></img> 
-          </a>
-          <span class="text-muted">© 2021 Nautica Martin, S.a</span>
-        </div>
-        <!-- form starts -->
-        <form class="col-md-3">
-        <div class="mb-3">
-          <label for="name" class="form-label">Nombre y Apellido</label>
-          <input type="text" class="form-control" id="name" placeholder="Horacio Perez">
-          <label for="email" class="form-label">Dirección Email</label>
-          <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
-          <div id="emailHelp" class="form-text">Su email no se compartirá con nadie.</div>
-          <label for="texto" class="form-label">Su comentario/pregunta</label>
-          <textarea class="form-control" id="texto" rows="3"></textarea>
-          <button type="submit" class="btn btn-primary">Enviar</button>          
-        </div>
-        </form>
-        <!-- form ends -->
-        <div class="col-md-3">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13613.866747232205!2d-60.92157!3d-31.456346!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x71437bb172ff09a1!2sNautica%20Martin!5e0!3m2!1sen!2sar!4v1644368689632!5m2!1sen!2sar" loading="lazy" id="map"></iframe>
-        </div>
-        <ul class="nav col-md-2 justify-content-end list-unstyled d-flex">
-          <li class="ms-3"><a class="text-dark" href="https://instagram.com/nautica_martin"><img src="./img/instagram.svg" alt="intagram" class="bi" width="50" height="50"></a></li>
-          <li class="ms-3"><a class="text-dark" href="https://facebook.com/Nautica-Martin-815472771921200/"><img src="./img/facebook.svg" alt="facebook" class="bi" width="50" height="50"></a></li>
-        </ul>
-      </footer>
-    </div>
-    <!-- footer ends -->
-  </body>
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  <!-- AOS animation -->
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<footer id="foot">
+		
+				<div id="container1">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Enim facilis corporis voluptatibus recusandae architecto.</p>
+				</div>
+				<div id="container2">
+					<form action="send.php" method="post">
+					<fieldset id="form">
+						<legend>Contactenos</legend>
+						<label for="name">Nombre y Apellido</label>
+						<input type="text" placeholder="Horacio Perez" name="name" id="name">
+						<label for="email">Email</label>
+						<input type="email" placeholder="mail@mail.com" name="email" id="email">
+						<label for="text">Su Pregunta/Comentario</label>
+						<textarea type="text" placeholder="Hola, mi pregunta" name="text" id="text"></textarea>
+						<input type="submit" name="submit" id="submit">
+						<input type="reset">			
+					</fieldset>
+					</form>
+				</div>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13613.866747232205!2d-60.92157!3d-31.456346!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x71437bb172ff09a1!2sNautica%20Martin!5e0!3m2!1sen!2sar!4v1644368689632!5m2!1sen!2sar" loading="lazy" id="map"></iframe>
+				<div id="container3">
+					<h3>Seguinos en nuestras redes</h3>
+					<a href="https://facebook.com/Nautica-Martin-815472771921200/" target="_blank"> <img src="img/facebook.svg" alt="Facebook" ></a>
+					<a href="https://instagram.com/nautica_martin" target="_blank"><img src="img/instagram.svg" alt="Instagram"></a>
+				</div>
+			
+	</footer>
+</div> <!-- ends contenedor-->
+
+
+</body>
+
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>

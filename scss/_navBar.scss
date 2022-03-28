@@ -1,0 +1,66 @@
+//inicia botonera 
+.navbar {
+	width: 100%;
+	background: rgb(2,0,36);
+	background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 17%, rgba(0,212,255,1) 100%);
+	border-radius: 0.2rem;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#NavLogo{
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: auto;
+	animation-name: fadeIn;
+}
+
+.navbar ul{
+	list-style-type:none;
+	flex-direction: row;
+	display: flex;
+	justify-content: space-evenly;
+	justify-items: center;
+	width: 100%;
+}
+
+.navbar  ul li{
+	list-style-type: none;
+	font-weight: 800;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	list-style-type:none;
+	font-size: 0.7rem;
+}
+
+
+.navbar ul li a:hover{
+	color: black;
+	font-size: 0.8rem;
+	font-weight: 1000;
+}
+
+#logo{
+	width: 100px;
+	height: auto;
+}
+
+#logo:hover{
+	width: 150px;
+	height: auto;
+}
+
+.navbar ul li a img{
+	display: none;
+}
+
+.navbar a img:hover{
+	width: 11%;
+}

@@ -1,0 +1,293 @@
+/* media queries*/
+@media (min-width: 400px){
+	.navbar ul li a{
+		font-size: 1rem;
+	}
+
+	.navbar ul li a:hover{
+		font-size: 1.2rem;
+	}
+
+	#text1{
+		font-size: 2rem;
+	}
+
+	#text2{
+		font-size: 2rem;
+	}
+
+	
+}
+
+@media (min-width: 600px){
+	.navbar ul li a{
+		font-size: 1.5rem;
+	}
+
+	.navbar ul li a:hover{
+		font-size: 1.8rem;
+	}
+
+}
+
+@media (min-width: 800px){
+	#foot{
+		flex-direction: row;
+		justify-content: space-evenly;
+		justify-items: center;
+		height: fit-content;
+	}
+
+	#container1{
+		width: 10%;
+		height: fit-content;
+		font-size: 1rem;
+	}
+
+	#container2{
+		width: 35%;
+		height: fit-content;
+	}
+
+	legend{
+		font-size: 3rem;
+	}
+
+	input{
+		font-size: 2rem;
+		width: 100%;
+		height: fit-content;
+	}
+
+	label{
+		font-size: 2.5rem;
+	}
+
+	textarea{
+		font-size: 2rem;
+	}
+
+	#map{
+		width: 35%;
+	}
+
+	#container3{
+		font-size: 1.5rem;
+		width: 8%;
+		display: flex;
+		flex-direction: column;
+		justify-items: space-evenly;
+		justify-content: center;
+	}
+
+	#container3 a{
+		width: fit-content;
+	}
+
+	#container3 h3{
+		text-align: center;
+	}
+
+	
+}
+
+@media (min-width: 1000px){
+	.contenedor{
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: auto;
+		grid-template-areas: "nav nav nav nav" "main main main aside" "footer footer footer footer";
+		grid-gap: 2px 2px;
+	}
+
+	.navbar{
+		width: 100%;
+	}
+
+	.navbar ul li a{
+		font-size: 2.5rem;
+	}
+
+	.navbar ul li a:hover{
+		font-size: 2.8rem;
+	}
+/*main*/
+	#text1{
+		font-size: 2rem;
+	}
+
+	#text2{
+		font-size: 2rem;
+	}
+	/*aside*/
+	#shop div a h2{
+		font-size: 1.8rem;
+		text-decoration: none;
+		list-style-type: none;
+	}
+
+	#shop div a{
+		justify-content: center;
+		justify-items: space-evenly;
+	}
+
+	.ShopImg{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.ShopImg a img{
+		width: 80%;
+		height: auto;
+	}
+
+	.ShopImg:hover{
+		height: auto;
+	}
+
+	#cart{
+		display: flex;
+		width: 100%;
+		height: auto;
+	}
+/*footer*/
+	#foot{
+		flex-direction: row;
+		justify-content: space-evenly;
+		justify-items: center;
+		height: fit-content;
+	}
+
+	#container1{
+		width: 8%;
+		height: fit-content;
+		font-size: 1.3rem;
+	}
+
+	#container2{
+		width: 38%;
+		height: fit-content;
+	}
+
+	legend{
+		font-size: 3rem;
+	}
+
+	input{
+		font-size: 2rem;
+		width: 100%;
+		height: fit-content;
+	}
+
+	label{
+		font-size: 2.5rem;
+	}
+
+	textarea{
+		font-size: 2rem;
+	}
+
+	#map{
+		width: 38%;
+	}
+
+	#container3{
+		font-size: 1.5rem;
+		width: 8%;
+		display: flex;
+		flex-direction: column;
+		justify-items: space-evenly;
+		justify-content: center;
+	}
+
+	#container1 p{
+		font-size: 2rem;
+	}
+
+	#container3 a{
+		width: fit-content;
+		flex-direction: row;
+	}
+
+	#container3 h3{
+		text-align: center;
+	}
+
+	#container3 a img{
+		width: 150%;
+	}
+	
+}
+
+@media (min-width: 1500px){
+	.navbar ul li a{
+		font-size: 3.5rem;
+	}
+
+	.navbar ul li a:hover{
+		font-size: 3.8rem;
+	}
+
+	#shop div a h2{
+		font-size: 2.8rem;
+	}
+
+	#text1{
+		font-size: 3rem;
+	}
+
+	#text2{
+		font-size: 3rem;
+	}
+
+	#container3 h3{
+		font-size: 3rem;
+	}
+
+	#container3 a img{
+		width: 200%;
+	}
+
+
+}
+
+@media (min-width: 1800px){
+	.contenedor{
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: auto;
+		grid-template-areas: "nav nav nav nav" "main main main aside" "footer footer footer footer";
+		grid-gap: 2px 2px;
+	}
+
+	.navbar ul li a{
+		font-size: 4rem;
+	}
+
+	.navbar ul li a:hover{
+		font-size: 4.2rem;
+	}
+
+	#shop div a h2{
+		font-size: 4rem;
+	}
+
+	#text1{
+		font-size: 5rem;
+	}
+
+	#text2{
+		font-size: 5rem;
+	}
+
+	#container3 h3{
+		font-size: 4rem;
+	}
+
+	#container1 p{
+		font-size: 3rem;
+	}
+	#container3 a img{
+		width: 200%;
+	}
+
+
+}
