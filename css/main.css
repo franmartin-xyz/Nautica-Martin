@@ -190,6 +190,28 @@ input[type=reset]:hover {
   display: flex;
   flex-direction: column;
   align-items: center; }
+  .navbar ul {
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    width: 100%; }
+    .navbar ul li {
+      list-style-type: none;
+      font-weight: 800; }
+      .navbar ul li a {
+        text-decoration: none;
+        list-style-type: none;
+        font-size: 0.7rem; }
+        .navbar ul li a img {
+          display: none; }
+        .navbar ul li a img:hover {
+          width: 11%; }
+      .navbar ul li a:hover {
+        color: black;
+        font-size: 0.8rem;
+        font-weight: 1000; }
 
 #NavLogo {
   text-decoration: none;
@@ -200,28 +222,6 @@ input[type=reset]:hover {
   height: auto;
   animation-name: fadeIn; }
 
-.navbar ul {
-  list-style-type: none;
-  flex-direction: row;
-  display: flex;
-  justify-content: space-evenly;
-  justify-items: center;
-  width: 100%; }
-
-.navbar ul li {
-  list-style-type: none;
-  font-weight: 800; }
-
-.navbar ul li a {
-  text-decoration: none;
-  list-style-type: none;
-  font-size: 0.7rem; }
-
-.navbar ul li a:hover {
-  color: black;
-  font-size: 0.8rem;
-  font-weight: 1000; }
-
 #logo {
   width: 100px;
   height: auto; }
@@ -229,12 +229,6 @@ input[type=reset]:hover {
 #logo:hover {
   width: 150px;
   height: auto; }
-
-.navbar ul li a img {
-  display: none; }
-
-.navbar a img:hover {
-  width: 11%; }
 
 #shop {
   border-radius: 0.2rem;
