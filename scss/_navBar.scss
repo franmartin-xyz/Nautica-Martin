@@ -29,9 +29,9 @@
 			}
 				 img{
 						display: none;
-					}
-					img:hover{
-						width: 11%;
+						&:hover{
+							width: 11%;
+						}
 					}
 			}
 		}
