@@ -22,17 +22,17 @@
 			text-decoration: none;
 			list-style-type:none;
 			font-size: 0.7rem;
+			&:hover{
+			color: black;
+			font-size: 0.8rem;
+			font-weight: 1000;
+			}
 				 img{
 						display: none;
 					}
 					img:hover{
 						width: 11%;
 					}
-			}
-			a:hover{
-			color: black;
-			font-size: 0.8rem;
-			font-weight: 1000;
 			}
 		}
 	}
@@ -51,9 +51,10 @@
 #logo{
 	width: 100px;
 	height: auto;
+	&:hover{
+		width: 150px;
+		height: auto;
+	}
 }
 
-#logo:hover{
-	width: 150px;
-	height: auto;
-}
+
