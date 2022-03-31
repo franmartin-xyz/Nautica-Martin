@@ -23,16 +23,16 @@
 			list-style-type:none;
 			font-size: 0.7rem;
 			&:hover{
-			color: black;
-			font-size: 0.8rem;
-			font-weight: 1000;
-			}
-				 img{
-						display: none;
-						&:hover{
-							width: 11%;
-						}
+				color: black;
+				font-size: 0.8rem;
+				font-weight: 1000;
+				}
+			img{
+				display: none;
+				&:hover{
+					width: 11%;
 					}
+				}
 			}
 		}
 	}
