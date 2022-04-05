@@ -1,5 +1,18 @@
-$mainColor:rgb(78, 139, 191);
-$textColor:rgb(119, 179, 217);
-$darkColor:rgb(25, 46 ,89);
-$lightColor:rgb(65, 120, 191);
-$lighterColor:rgb(194, 224, 242);
+$colors:(
+"mainColor":rgb(78, 139, 191),
+"textColor":rgb(119, 179, 217),
+"darkColor":rgb(25, 46 ,89),
+"lightColor":rgb(65, 120, 191),
+"lighterColor":rgb(194, 224, 242),
+);
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto:wght@300&display=swap');
+$mainFont:'Roboto';
+$sizes:(
+	'fSizeB': 0.8rem,
+	'fSizeM': 0.7rem,
+	'fSizeXS': 0.2rem,
+	'max': 100%,
+	'widthB': 150px,
+	'widthM':100px,
+)
+

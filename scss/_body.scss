@@ -1,87 +1,25 @@
-
-*{
-	font-family: $mainFont;
-	magin: 0;
-	padding: 0;
+@mixin img($w,$h,$br){
+	width: $w;
+	height: $h;
+	border-radius:$br;
 }
-html{
-	font-size: 62.5%;
-}
-
-body{
-	background-image:url(../img/Backgound3.jpg);
-	back-size: cover;
-	background-attachment: fixed;	
-}
-
-//definimos el grid layout
-.contenedor{
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: auto;
-	grid-template-areas: "nav" "main" "aside" "footer";
-	grid-gap: 2px 2px;
-}
-
-// le damos nombres a las areas del layout
-#mainNav{
-	grid-area: nav;
-}
-
-
-#main{
-	grid-area: main;
-}
-
-#shop{
-	grid-area: aside;
-}
-
-#foot{
-	grid-area: footer;
-}
-
-// style main contentS
-
-#block1 {
+.reviews{
 	display: flex;
 	flex-direction: column;
-	justify-items: center;
+	justify-content: center;
+	img{
+		@include img (40px,40px,10px);
+	}
+	p{
+		width:fit-content;
+	}
 }
-
-#text1 {
-	background-color: $textColor;
-	border-radius: 0.2rem;	
-	font-size: 1.5rem;
-	width: 100%;
-	height: fit-content;
+.reviews2{
+	@extend .reviews;
 }
-
-#img1{
-	width: 100%;
-	height: auto;
-	border-radius: 0.2rem;
-	display: flex;
-	order: -1;
+.reviews3{
+	@extend .reviews;
 }
-
-#block2 {
-	display: flex;
-	flex-direction: column;
-	justify-items: center;
+.reviews4{
+	@extend .reviews;
 }
-
-#img2{
-	border-radius: 0.2rem;
-	width: 100%;
-	height: auto;
-}
-
-#text2{
-	background-color: $textColor;
-	border-radius: 0.2rem;
-	font-size: 1.5rem;
-	width: 100%;
-	height: fit-content;
-}
-
